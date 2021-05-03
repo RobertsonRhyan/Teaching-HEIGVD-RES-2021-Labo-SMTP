@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 /**
  * 
  */
-public class SmtpClient {
+public class SmtpClient implements ISmtpClient{
     private static final Logger LOG = Logger.getLogger(SmtpClient.class.getName());
 
     private String smtpServerAddress;
